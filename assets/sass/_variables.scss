@@ -1,0 +1,68 @@
+// Colors
+$color-primary: #014186;
+$color-primary-dark: #073668;
+$color-secondary: #FBB03B;
+$color-dark: #111111;
+$color-dark-lite: #333333;
+$color-light: #ffffff;
+$color-grey: #5A7090;
+$color-lite-grey: #EEEEEE;
+
+
+
+// image
+img{max-width: 100%;}
+
+// Fonts Sizes
+h1, h2, h3, h4, h5,h6{font-family: 'Poppins', sans-serif; font-weight: bold;}
+p,a,ul,li,span{font-family: 'Open Sans', sans-serif;}
+h1{font-size: 32px;}
+h2{font-size: 22px;}
+h3{font-size: 18px;}
+h4{font-size: 22px;}
+h5{font-size: 20px;}
+h6{font-size: 18px;}
+p{font-size: 16px;}
+
+// Font Colors
+.text-primary{color: $color-primary;}
+.text-primary-dark{color: $color-primary-dark;}
+.text-secondary{color: $color-secondary;}
+.text-dark{color: $color-dark;}
+.text-dark-lite{color: $color-dark-lite;}
+.text-light{color: $color-light;}
+.text-grey{color: $color-grey;}
+.text-grey-lite{color: $color-lite-grey;}
+
+// Backgrounds
+.bg-primary{background-color: $color-primary;}
+.bg-primary-dark{background-color: $color-primary-dark;}
+.bg-secondary{background-color: $color-secondary;}
+.bg-dark{background-color: $color-dark;}
+.bg-dark-lite{background-color: $color-dark-lite;}
+.bg-light{background-color: $color-light;}
+.bg-grey{background-color: $color-grey;}
+.bg-grey-lite{background-color: $color-lite-grey;}
+
+// Buttons
+.btn{
+    width: 200px;
+    height: 60px;
+    font-weight: bold;
+    border-radius: 0;
+    font-size: 20px;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
+
+.btn-primary{
+    background: $color-primary;
+    color: $color-light;
+}
+.btn-secondary{
+    background: $color-secondary;
+    color: $color-dark;
+}
+.btn-sm{
+    height: 50px;
+}

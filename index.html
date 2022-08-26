@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/lib/event54-icomoon/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Events54</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-items-center h-100">
+                <div class="col-2"></div>
+                <div class="col-8 text-center"><img src="assets/images/brandlogo.png" alt=""></div>
+                <div class="col-2 text-end"> <a href="#"><i class="icon-menu"></i></a></div>
+            </div>
+        </div>
+    </header>
+    <div id="wrapper">
+        <!-- Cover Section -->
+        <section id="cover" class="pt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="eventCover">
+                            <img src="assets/images/cover.png" alt="">
+                            <div id="evntclublogo"><img src="assets/images/clublogo.png" alt=""></div>
+                            <div id="btnmsgplay"><a href=""><i class="icon-play-yellow"></i> Message from club
+                                    chairman</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 
+            2 sections below are for Multiple Date Events
+         -->
+        <!-- Event Info [for Multiple Dates Event] -->
+        <section id="eventinfo_multidate">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-content bg-light p-3 mt-2">
+                            <div class="event_title">
+                                <h1>Geraldines Mighty Marquee Weekend</h1>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-lg-6 align-items-end">
+                                    <table class="table table-striped table-bordered mb-0">
+                                        <tr>
+                                            <td><strong>Thu, 6th Oct, 8:30PM</strong></td>
+                                            <td>Johnny Cash Band</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Fri, 6th Oct, 8:30PM</strong></td>
+                                            <td>Johnny Cash Band</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Sat, 6th Oct, 8:30PM</strong></td>
+                                            <td>Johnny Cash Band</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Sun, 6th Oct, 8:30PM</strong></td>
+                                            <td>Johnny Cash Band</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-12 col-lg-6 d-flex align-items-end justify-content-end">
+                                    <button class="btn btn-primary">Get Tickets</button>
+                                    <button class="btn btn-secondary ms-2">Vote for An Act</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Event date and countdown [for Multiple Dates Event] -->
+        <section id="eventinfo2_multidate" class="mt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-content bg-light p-3">
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="mb-2">
+                                        <i class="icon-calendar"></i>
+                                        <span class="d-inline-block ms-2"> <strong>Thursday, 6th October - Sunday,
+                                                9th October</strong>
+                                        </span>
+                                    </div>
+                                    <div class="mb-2"><i class="icon-location"></i>
+                                        <span class="d-inline-block ms-2"> McGeough Park, Haggardstown, Co. Louth
+                                        </span>
+                                    </div>
+                                    <div class="mb-2"><i class="icon-ticket"></i>
+                                        <span class="d-inline-block ms-2"><strong>Tickets from €20 per
+                                                person</strong></span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <!-- <p id="demo"></p> -->
+                                    <div class="row justify-content-end text-center text-grey pe-3">
+                                        <div class="col-8 countdown py-2 px-3" id="counttime">
+                                            <div class="row">
+                                                <div class="col px-0">
+                                                    <h1 class="fs-1 mb-0" id="days">24</h1><span
+                                                        class="fs-4"><strong>Days</strong></span>
+                                                </div>
+                                                <div class="col px-0 coln">
+                                                    <h1 class="fs-1 mb-0">:</h1>
+                                                </div>
+                                                <div class="col px-0">
+                                                    <h1 class="fs-1 mb-0" id="hrs">16</h1><span class="fs-4">
+                                                        <strong>Hours</strong></span>
+                                                </div>
+                                                <div class="col coln px-0">
+                                                    <h1 class="fs-1 mb-0">:</h1>
+                                                </div>
+                                                <div class="col px-0">
+                                                    <h1 class="fs-1 mb-0" id="mins">32</h1><span class="fs-4">
+                                                        <strong>Mins</strong></span>
+                                                </div>
+                                                <div class="col px-0 coln">
+                                                    <h1 class="fs-1 mb-0">:</h1>
+                                                </div>
+                                                <div class="col px-0">
+                                                    <h1 class="fs-1 mb-0" id="secs">20</h1><span
+                                                        class="fs-4"><strong>Secs</strong></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Single date event -->
+        <section id="eventinfo_multidate">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-content bg-light p-3 mt-2">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 align-items-end">
+                                    <div class="event_title mb-3">
+                                        <h1>Geraldines Mighty Marquee Weekend</h1>
+                                    </div>
+                                    <div class="mb-2 mt-3">
+                                        <i class="icon-calendar"></i>
+                                        <span class="d-inline-block ms-2"> <strong>Thursday, 6th October - Sunday,
+                                                9th October</strong>
+                                        </span>
+                                    </div>
+                                    <div class="mb-2"><i class="icon-location"></i>
+                                        <span class="d-inline-block ms-2"> McGeough Park, Haggardstown, Co. Louth
+                                        </span>
+                                    </div>
+                                    <div class="mb-2"><i class="icon-ticket"></i>
+                                        <span class="d-inline-block ms-2"><strong>Tickets from €20 per
+                                                person</strong></span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6 d-flex flex-column justify-content-end">
+                                    <div class="d-flex justify-content-end mb-3">
+                                        <button class="btn btn-primary">Get Tickets</button>
+                                        <button class="btn btn-secondary ms-2">Vote for An Act</button>
+                                    </div>
+                                    <div class="row justify-content-end text-center text-grey pe-3">
+                                        <div class="col-8 countdown py-2 px-3" id="counttime">
+                                            <div class="row">
+                                                <div class="col px-0">
+                                                    <h1 class="fs-1 mb-0" id="days">24</h1><span
+                                                        class="fs-4"><strong>Days</strong></span>
+                                                </div>
+                                                <div class="col px-0 coln">
+                                                    <h1 class="fs-1 mb-0">:</h1>
+                                                </div>
+                                                <div class="col px-0">
+                                                    <h1 class="fs-1 mb-0" id="hrs">16</h1><span class="fs-4">
+                                                        <strong>Hours</strong></span>
+                                                </div>
+                                                <div class="col px-0 coln">
+                                                    <h1 class="fs-1 mb-0">:</h1>
+                                                </div>
+                                                <div class="col px-0">
+                                                    <h1 class="fs-1 mb-0" id="mins">32</h1><span class="fs-4">
+                                                        <strong>Mins</strong></span>
+                                                </div>
+                                                <div class="col px-0 coln">
+                                                    <h1 class="fs-1 mb-0">:</h1>
+                                                </div>
+                                                <div class="col px-0">
+                                                    <h1 class="fs-1 mb-0" id="secs">20</h1><span
+                                                        class="fs-4"><strong>Secs</strong></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Acts [Portraits] -->
+        <section id="act-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-content bg-light p-3 mt-2">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2>Community Lip Sync Challenge Acts</h2>
+                                </div>
+                                <!-- 1 -->
+                                <div class="col act-portaitbox">
+                                    <div class="act-portrait">
+                                        <div class="border">
+                                            <img src="assets/images/act1.png" alt="">
+                                        </div>
+                                        <div class="act-overlay d-flex align-items-end flex-column bd-highlight mb-3">
+                                            <div class="act-ribbon p-2 px-3 bd-highlight">1</div>
+                                            <div class="act-meta text-center mt-auto p-2 bd-highlight w-100">
+                                                <h2 class="text-light">Ben and Jerry</h2>
+                                                <button class="btn btn-secondary btn-sm">Vote Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="col act-portaitbox">
+                                    <div class="act-portrait">
+                                        <div class="border">
+                                            <img src="assets/images/act2.png" alt="">
+                                        </div>
+                                        <div class="act-overlay d-flex align-items-end flex-column bd-highlight mb-3">
+                                            <div class="act-ribbon p-2 px-3 bd-highlight">2</div>
+                                            <div class="act-meta text-center mt-auto p-2 bd-highlight w-100">
+                                                <h2 class="text-light">Ben and Jerry</h2>
+                                                <button class="btn btn-secondary btn-sm">Vote Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="col act-portaitbox">
+                                    <div class="act-portrait">
+                                        <div class="border">
+                                            <img src="assets/images/act3.png" alt="">
+                                        </div>
+                                        <div class="act-overlay d-flex align-items-end flex-column bd-highlight mb-3">
+                                            <div class="act-ribbon p-2 px-3 bd-highlight">3</div>
+                                            <div class="act-meta text-center mt-auto p-2 bd-highlight w-100">
+                                                <h2 class="text-light">Ben and Jerry</h2>
+                                                <button class="btn btn-secondary btn-sm">Vote Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="col act-portaitbox">
+                                    <div class="act-portrait">
+                                        <div class="border">
+                                            <img src="assets/images/act4.png" alt="">
+                                        </div>
+                                        <div class="act-overlay d-flex align-items-end flex-column bd-highlight mb-3">
+                                            <div class="act-ribbon p-2 px-3 bd-highlight">4</div>
+                                            <div class="act-meta text-center mt-auto p-2 bd-highlight w-100">
+                                                <h2 class="text-light">Ben and Jerry</h2>
+                                                <button class="btn btn-secondary btn-sm">Vote Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 5 -->
+                                <div class="col act-portaitbox">
+                                    <div class="act-portrait">
+                                        <div class="border">
+                                            <img src="assets/images/act5.png" alt="">
+                                        </div>
+                                        <div class="act-overlay d-flex align-items-end flex-column bd-highlight mb-3">
+                                            <div class="act-ribbon p-2 px-3 bd-highlight">5</div>
+                                            <div class="act-meta text-center mt-auto p-2 bd-highlight w-100">
+                                                <h2 class="text-light">Ben and Jerry</h2>
+                                                <button class="btn btn-secondary btn-sm">Vote Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Acts [Landscape] -->
+        <section id="act-container-landscape">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-content bg-light p-3 mt-2">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2>Community Lip Sync Challenge Acts</h2>
+                                </div>
+                                <!-- 1 -->
+                                <div class="col-4 act-portaitbox-wide">
+                                    <div class="act-portrait-wd">
+                                        <div class="border">
+                                            <img src="assets/images/wide1.jpg" alt="">
+                                        </div>
+                                        <div
+                                            class="act-overlay-wide d-flex align-items-end flex-column bd-highlight mb-3">
+                                            <div class="act-ribbon p-2 px-3 bd-highlight">1</div>
+                                            <div class="act-meta text-center mt-auto p-2 bd-highlight w-100">
+                                                <h2 class="text-light">Ben and Jerry</h2>
+                                                <button class="btn btn-secondary btn-sm">Vote Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="col-4 act-portaitbox-wide">
+                                    <div class="act-portrait-wd">
+                                        <div class="border">
+                                            <img src="assets/images/wide2.jpg" alt="">
+                                        </div>
+                                        <div
+                                            class="act-overlay-wide d-flex align-items-end flex-column bd-highlight mb-3">
+                                            <div class="act-ribbon p-2 px-3 bd-highlight">2</div>
+                                            <div class="act-meta text-center mt-auto p-2 bd-highlight w-100">
+                                                <h2 class="text-light">Ben and Jerry</h2>
+                                                <button class="btn btn-secondary btn-sm">Vote Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="col-4 act-portaitbox-wide">
+                                    <div class="act-portrait-wd">
+                                        <div class="border">
+                                            <img src="assets/images/wide3.jpg" alt="">
+                                        </div>
+                                        <div
+                                            class="act-overlay-wide d-flex align-items-end flex-column bd-highlight mb-3">
+                                            <div class="act-ribbon p-2 px-3 bd-highlight">3</div>
+                                            <div class="act-meta text-center mt-auto p-2 bd-highlight w-100">
+                                                <h2 class="text-light">Ben and Jerry</h2>
+                                                <button class="btn btn-secondary btn-sm">Vote Now</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Donations -->
+        <section id="act-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-content bg-light p-3 mt-2">
+                            <div class="row">
+                                <div class="col-12 col-lg-7 evt-donationbox">
+                                    <img src="assets/images/donation.png" alt="">
+                                    <div class="donation-clublogo">
+                                        <img src="assets/images/clublogo.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 evt-donationdata">
+                                    <h1 class="mb-3">Donate to your Club</h1>
+                                    <div class="mb-2"><strong>Select/Enter Amount</strong></div>
+                                    <!-- Donation form -->
+                                    <form>
+                                        <div class="d-flex justify-content-between">
+                                            <input type="radio" class="donation_radio" name="don_amount" id="euro_5">
+                                            <label for="euro_5">€5</label>
+                                            <!--  -->
+                                            <input type="radio" class="donation_radio" name="don_amount" id="euro_10"
+                                                checked>
+                                            <label for="euro_10">€10</label>
+                                            <!--  -->
+                                            <input type="radio" class="donation_radio" name="don_amount" id="euro_25">
+                                            <label for="euro_25">€25</label>
+                                            <!--  -->
+                                            <input type="radio" class="donation_radio" name="don_amount" id="euro_50">
+                                            <label for="euro_50">€50</label>
+                                            <!--  -->
+                                            <input type="radio" class="donation_radio" name="don_amount" id="euro_100">
+                                            <label for="euro_100">€100</label>
+                                        </div>
+                                        <!--  -->
+                                        <div class="text-center fw-bold fs-5 my-3 text-grey">OR</div>
+                                        <!--  -->
+                                        <div class="input-group don mb-3">
+                                            <span class="input-group-text bg-grey text-light" id="basic-addon1">€</span>
+                                            <input type="text" class="form-control" placeholder="Enter Amount"
+                                                aria-label="enter_amount" aria-describedby="basic-addon1">
+                                        </div>
+                                        <!--  -->
+                                        <button class="btn btn-block btn-primary w-100">Donate Now</button>
+                                        <div class="text-grey text-center mt-2"> <i class="icon-shield"></i> Your
+                                            transaction and data is encrypted and secured.</div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section id="act-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-content bg-light p-3 mt-2">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2>About Event</h2>
+                                </div>
+                                <div class="col-12">
+                                    <p>
+                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                                        old.Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                                        looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum
+                                        passage, and going through the cites of the word in classical literature,
+                                        discovered the undoubtable source.
+                                    </p>
+                                    <p>
+                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a
+                                        piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                        Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                                        looked
+                                        up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+                                        and
+                                        going through the cites of the word in classical literature, discovered the
+                                        undoubtable source
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <!-- Event Sponsors -->
+        <section id="act-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-content bg-light p-3 mt-2">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2>Event Sponsors</h2>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row my-2">
+                                        <div class="col-2"><img src="assets/images/sponsor1.png" alt=""></div>
+                                        <div class="col-2"><img src="assets/images/sponsor2.png" alt=""></div>
+                                        <div class="col-2"><img src="assets/images/sponsor3.png" alt=""></div>
+                                        <div class="col-2"><img src="assets/images/sponsor1.png" alt=""></div>
+                                        <div class="col-2"><img src="assets/images/sponsor2.png" alt=""></div>
+                                        <div class="col-2"><img src="assets/images/sponsor3.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Event Location -->
+        <section id="act-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-content bg-light p-3 mt-2">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2>Event Location</h2>
+                                </div>
+                                <div class="col-12">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2360.938365672168!2d-6.355807983949762!3d53.719360354405985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48673a206f6a8cb9%3A0xa577d167e6668560!2sPark%20View%2C%20Drogheda%2C%20Co.%20Louth%2C%20Ireland!5e0!3m2!1sen!2sin!4v1661457977985!5m2!1sen!2sin"
+                                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Oct 6, 2022 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            //   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            //   + minutes + "m " + seconds + "s ";
+
+            //   
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hrs").innerHTML = hours;
+            document.getElementById("mins").innerHTML = minutes;
+            document.getElementById("secs").innerHTML = seconds;
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("counttime").innerHTML = "Event is Live Now";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
