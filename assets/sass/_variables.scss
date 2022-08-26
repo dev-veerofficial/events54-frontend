@@ -1,11 +1,11 @@
 // Colors
 $color-primary: #014186;
 $color-primary-dark: #073668;
-$color-primary-light: #f2f9ff;
+$color-primary-lite: #f2f9ff;
 $color-secondary: #FBB03B;
 $color-dark: #111111;
 $color-dark-lite: #333333;
-$color-light: #ffffff;
+$color-lite: #ffffff;
 $color-grey: #5A7090;
 $color-lite-grey: #EEEEEE;
 $color-green: #3D7D14;
@@ -31,7 +31,7 @@ p{font-size: 16px;}
 .text-secondary{color: $color-secondary;}
 .text-dark{color: $color-dark;}
 .text-dark-lite{color: $color-dark-lite;}
-.text-light{color: $color-light;}
+.text-light{color: $color-lite;}
 .text-grey{color: $color-grey;}
 .text-grey-lite{color: $color-lite-grey;}
 .text-green{color :$color-green}
@@ -39,11 +39,11 @@ p{font-size: 16px;}
 // Backgrounds
 .bg-primary{background-color: $color-primary;}
 .bg-primary-dark{background-color: $color-primary-dark;}
-.bg-primary-light{background-color: $color-primary-light;}
+.bg-primary-lite{background-color: $color-primary-lite;}
 .bg-secondary{background-color: $color-secondary;}
 .bg-dark{background-color: $color-dark;}
 .bg-dark-lite{background-color: $color-dark-lite;}
-.bg-light{background-color: $color-light;}
+.bg-lite{background-color: $color-lite;}
 .bg-grey{background-color: $color-grey;}
 .bg-grey-lite{background-color: $color-lite-grey;}
 
@@ -60,7 +60,7 @@ p{font-size: 16px;}
 
 .btn-primary{
     background: $color-primary;
-    color: $color-light;
+    color: $color-lite;
 }
 .btn-secondary{
     background: $color-secondary;

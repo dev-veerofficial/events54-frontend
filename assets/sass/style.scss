@@ -30,7 +30,7 @@ header{
 #evntclublogo{
     width: 180px;
     height: 180px;
-    background-color: $color-light;
+    background-color: $color-lite;
     text-align: center;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@ header{
     bottom: 10px;
     a{
         display: block;
-        color: $color-light;
+        color: $color-lite;
         text-decoration: none;
         background: $color-primary;
         padding: 10px 30px 10px 10px;
@@ -103,7 +103,7 @@ header{
 
     &:checked+label{
         background: $color-primary;
-        color: $color-light;
+        color: $color-lite;
     }
 }
 
