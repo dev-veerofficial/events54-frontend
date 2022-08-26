@@ -71,12 +71,20 @@ p {
   color: #EEEEEE;
 }
 
+.text-green {
+  color: #3D7D14;
+}
+
 .bg-primary {
   background-color: #014186;
 }
 
 .bg-primary-dark {
   background-color: #073668;
+}
+
+.bg-primary-light {
+  background-color: #f2f9ff;
 }
 
 .bg-secondary {
@@ -312,6 +320,18 @@ header .container {
 
 .col.coln {
   max-width: 20px;
+}
+
+.logo_sm {
+  width: 130px;
+}
+
+.act_wrap {
+  height: 100px;
+}
+
+.lin_unsty {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
