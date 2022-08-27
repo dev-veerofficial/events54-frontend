@@ -1,14 +1,25 @@
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
-<<<<<<< Updated upstream
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Poppins', sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
-p, a, ul, li, span {
-  font-family: 'Open Sans', sans-serif; }
-=======
+p,
+a,
+ul,
+li,
+span {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -26,96 +37,121 @@ li,
 span {
   font-family: "Open Sans", sans-serif;
 }
->>>>>>> Stashed changes
 
 h1 {
-  font-size: 32px; }
+  font-size: 32px;
+}
 
 h2 {
-  font-size: 22px; }
-
-h3 {
-  font-size: 18px; }
-
-<<<<<<< Updated upstream
-h4 {
-  font-size: 22px; }
-
-h5 {
-  font-size: 20px; }
-
-h6 {
-  font-size: 18px; }
-=======
-h4, .text-xxl {
   font-size: 22px;
 }
 
-h5, .text-xl {
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
   font-size: 20px;
 }
 
-h6, .text-lg {
+h6 {
   font-size: 18px;
 }
->>>>>>> Stashed changes
+
+h4,
+.text-xxl {
+  font-size: 22px;
+}
+
+h5,
+.text-xl {
+  font-size: 20px;
+}
+
+h6,
+.text-lg {
+  font-size: 18px;
+}
 
 p {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 .text-primary {
-  color: #014186; }
+  color: #014186;
+}
 
 .text-primary-dark {
-  color: #073668; }
+  color: #073668;
+}
 
 .text-secondary {
-  color: #FBB03B; }
+  color: #FBB03B;
+}
 
 .text-dark {
-  color: #111111; }
+  color: #111111;
+}
 
 .text-dark-lite {
-  color: #333333; }
+  color: #333333;
+}
 
 .text-light {
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .text-grey {
-  color: #5A7090; }
+  color: #5A7090;
+}
 
 .text-grey-lite {
-  color: #EEEEEE; }
+  color: #EEEEEE;
+}
 
 .text-green {
-  color: #3D7D14; }
+  color: #3D7D14;
+}
 
 .bg-primary {
-  background-color: #014186; }
+  background-color: #014186;
+}
 
 .bg-primary-dark {
-  background-color: #073668; }
+  background-color: #073668;
+}
 
 .bg-primary-lite {
-  background-color: #f2f9ff; }
+  background-color: #f2f9ff;
+}
 
 .bg-secondary {
-  background-color: #FBB03B; }
+  background-color: #FBB03B;
+}
 
 .bg-dark {
-  background-color: #111111; }
+  background-color: #111111;
+}
 
 .bg-dark-lite {
-  background-color: #333333; }
+  background-color: #333333;
+}
 
 .bg-lite {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+}
 
 .bg-grey {
-  background-color: #5A7090; }
+  background-color: #5A7090;
+}
 
 .bg-grey-lite {
-  background-color: #EEEEEE; }
+  background-color: #EEEEEE;
+}
 
 .btn {
   width: 200px;
@@ -124,18 +160,22 @@ p {
   border-radius: 0;
   font-size: 20px;
   border: none;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); }
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
 
 .btn-primary {
   background: #014186;
-  color: #ffffff; }
+  color: #ffffff;
+}
 
 .btn-secondary {
   background: #FBB03B;
-  color: #111111; }
+  color: #111111;
+}
 
 .btn-sm {
-  height: 50px; }
+  height: 50px;
+}
 
 @media screen and (max-width: 648px) {
   h1 {
@@ -171,26 +211,34 @@ p {
     height: 40px;
   }
 }
-html, body {
+
+html,
+body {
   max-width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #EEEEEE; }
+  background-color: #EEEEEE;
+}
 
 #wrapper {
   width: 100%;
   max-width: 1366px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 header {
   height: 60px;
   width: 100%;
-  background-color: #014186; }
-  header .container {
-    height: 100%; }
+  background-color: #014186;
+}
+
+header .container {
+  height: 100%;
+}
 
 #eventCover {
-  position: relative; }
+  position: relative;
+}
 
 #eventconverr {
   width: 100%;
@@ -206,31 +254,37 @@ header {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-<<<<<<< Updated upstream
   position: absolute;
   top: 60px;
-  left: 30px; }
-  #evntclublogo img {
-    max-width: 140px; }
+  left: 30px;
+}
+
+#evntclublogo img {
+  max-width: 140px;
+}
 
 #btnmsgplay {
   position: absolute;
   right: 0;
-  bottom: 10px; }
-  #btnmsgplay a {
-    display: block;
-    color: #ffffff;
-    text-decoration: none;
-    background: #014186;
-    padding: 10px 30px 10px 10px;
-    border-radius: 30px 0 0 30px;
-    font-weight: bold;
-    font-size: 20px; }
-    #btnmsgplay a i {
-      font-size: 38px;
-      vertical-align: middle; }
-=======
+  bottom: 10px;
 }
+
+#btnmsgplay a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  background: #014186;
+  padding: 10px 30px 10px 10px;
+  border-radius: 30px 0 0 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#btnmsgplay a i {
+  font-size: 38px;
+  vertical-align: middle;
+}
+
 #evntclublogo img {
   max-width: 140px;
 }
@@ -245,47 +299,55 @@ header {
   font-weight: bold;
   font-size: 20px;
 }
+
 #btnmsgplay a i {
   font-size: 38px;
   vertical-align: middle;
 }
->>>>>>> Stashed changes
 
 .evt-donationbox {
-  position: relative; }
-  .evt-donationbox .donation-clublogo {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 60px;
-    right: 40px; }
-    .evt-donationbox .donation-clublogo img {
-      max-width: 150px; }
+  position: relative;
+}
+
+.evt-donationbox .donation-clublogo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
+
+.evt-donationbox .donation-clublogo img {
+  max-width: 150px;
+}
 
 .donation_radio {
-<<<<<<< Updated upstream
-  display: none; }
-  .donation_radio + label {
-    width: 90px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    border: 1px solid #111;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer; }
-  .donation_radio:checked + label {
-    background: #014186;
-    color: #ffffff; }
-=======
   display: none;
 }
-.donation_radio + label {
+
+.donation_radio+label {
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #111;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.donation_radio:checked+label {
+  background: #014186;
+  color: #ffffff;
+}
+
+
+.donation_radio+label {
   width: 19%;
   height: 40px;
   line-height: 40px;
@@ -295,23 +357,25 @@ header {
   font-size: 18px;
   cursor: pointer;
 }
-.donation_radio:checked + label {
+
+.donation_radio:checked+label {
   background: #014186;
   color: #ffffff;
 }
->>>>>>> Stashed changes
 
 .act-portaitbox {
   min-width: 250px;
   max-width: 260px;
-  margin-top: 15px; }
+  margin-top: 15px;
+}
 
 .act-portrait {
   height: 340px;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .act-overlay {
   background: #020024;
@@ -322,7 +386,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+}
 
 .act-overlay-wide {
   background: #020024;
@@ -333,7 +398,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+}
 
 .act-ribbon {
   background-image: url("../images/act-ribbon.png");
@@ -344,47 +410,61 @@ header {
   padding-bottom: 30px !important;
   width: 45px;
   color: #fff;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
 .input-group.don {
-  height: 60px; }
-  .input-group.don .input-group-text {
-    width: 50px;
-    text-align: center;
-    font-size: 18px;
-    justify-content: center; }
+  height: 60px;
+}
+
+.input-group.don .input-group-text {
+  width: 50px;
+  text-align: center;
+  font-size: 18px;
+  justify-content: center;
+}
 
 .evt-donationbox {
   max-height: 350px;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
-.act-portrait-wd > div {
-  height: 100%; }
+.act-portrait-wd>div {
+  height: 100%;
+}
 
-.act-portrait-wd > div > img {
-  width: 100%; }
+.act-portrait-wd>div>img {
+  width: 100%;
+}
 
 .act-portrait-wd {
   position: relative;
   height: 250px;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .countdown {
-  border: 1px dashed #5A7090; }
+  border: 1px dashed #5A7090;
+}
 
 .col.coln {
-  max-width: 20px; }
+  max-width: 20px;
+}
 
 .logo_sm {
-  width: 130px; }
+  width: 130px;
+}
 
 .act_wrap {
-  height: 100px; }
+  height: 100px;
+}
 
 .lin_unsty {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
-.act_wrap, header {
+.act_wrap,
+header {
   height: auto;
 }
 
