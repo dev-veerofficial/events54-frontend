@@ -12,20 +12,59 @@ $color-green: #3D7D14;
 
 
 // image
-img{max-width: 100%;}
+img {
+    max-width: 100%;
+}
 
 // Fonts Sizes
-h1, h2, h3, h4, h5,h6{font-family: 'Poppins', sans-serif; font-weight: bold;}
-p,a,ul,li,span{font-family: 'Open Sans', sans-serif;}
-h1{font-size: 32px;}
-h2{font-size: 22px;}
-h3{font-size: 18px;}
-h4{font-size: 22px;}
-h5{font-size: 20px;}
-h6{font-size: 18px;}
-p{font-size: 16px;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+p,
+a,
+ul,
+li,
+span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4, .text-xxl {
+    font-size: 22px;
+}
+
+h5, .text-xl {
+    font-size: 20px;
+}
+
+h6, .text-lg {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
 
 // Font Colors
+<<<<<<< Updated upstream
 .text-primary{color: $color-primary;}
 .text-primary-dark{color: $color-primary-dark;}
 .text-secondary{color: $color-secondary;}
@@ -46,26 +85,137 @@ p{font-size: 16px;}
 .bg-lite{background-color: $color-lite;}
 .bg-grey{background-color: $color-grey;}
 .bg-grey-lite{background-color: $color-lite-grey;}
+=======
+.text-primary {
+    color: $color-primary;
+}
+
+.text-primary-dark {
+    color: $color-primary-dark;
+}
+
+.text-secondary {
+    color: $color-secondary;
+}
+
+.text-dark {
+    color: $color-dark;
+}
+
+.text-dark-lite {
+    color: $color-dark-lite;
+}
+
+.text-light {
+    color: $color-light;
+}
+
+.text-grey {
+    color: $color-grey;
+}
+
+.text-grey-lite {
+    color: $color-lite-grey;
+}
+
+.text-green {
+    color: $color-green
+}
+
+// Backgrounds
+.bg-primary {
+    background-color: $color-primary;
+}
+
+.bg-primary-dark {
+    background-color: $color-primary-dark;
+}
+
+.bg-primary-light {
+    background-color: $color-primary-light;
+}
+
+.bg-secondary {
+    background-color: $color-secondary;
+}
+
+.bg-dark {
+    background-color: $color-dark;
+}
+
+.bg-dark-lite {
+    background-color: $color-dark-lite;
+}
+
+.bg-light {
+    background-color: $color-light;
+}
+
+.bg-grey {
+    background-color: $color-grey;
+}
+
+.bg-grey-lite {
+    background-color: $color-lite-grey;
+}
+>>>>>>> Stashed changes
 
 // Buttons
-.btn{
+.btn {
     width: 200px;
     height: 60px;
     font-weight: bold;
     border-radius: 0;
     font-size: 20px;
     border: none;
-    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
-.btn-primary{
+.btn-primary {
     background: $color-primary;
     color: $color-lite;
 }
-.btn-secondary{
+
+.btn-secondary {
     background: $color-secondary;
     color: $color-dark;
 }
-.btn-sm{
+
+.btn-sm {
     height: 50px;
+}
+
+
+@media screen and (max-width:648px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    .btn-sm {
+        height: 40px;
+    }
 }

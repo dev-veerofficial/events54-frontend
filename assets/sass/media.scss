@@ -1,0 +1,112 @@
+@media screen and (max-width:1024px) {
+    #eventconverr {
+        height: 180px;
+        padding-top: 100px;
+    }
+
+    #evntclublogo {
+        width: 100px;
+        height: 100px;
+        margin-top: 25px;
+    }
+
+    #evntclublogo img {
+        max-width: 85px;
+    }
+    div#btnmsgplay {
+        margin-top: -80px;
+    }
+
+    #btnmsgplay a{
+        border-radius: 40px;
+        font-weight: normal;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        span{
+            display: inline-block;
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    .act-portaitbox {
+        min-width: 225px;
+        max-width: 230px;
+    }
+    .btn{
+        width: 190px;
+    }
+    .act-portrait-wd {
+        height: 190px;
+    }
+    .donation_radio + label{
+        width: 19%;
+    }
+}
+@media screen and (max-width:480px) {
+
+    .donation_radio+label {
+        width: 50px;
+        min-width: 19%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .act-portrait-wd {
+        position: relative;
+        height: 190px;
+        overflow: hidden;
+    }
+
+    .act-overlay-wide {
+        background: linear-gradient(0deg, #020024 0%, rgba(0, 0, 0, 0.5) 71%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .act-ribbon {
+        background-image: url(../images/act-ribbon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom: 20px !important;
+        width: 36px;
+        color: #FFF;
+        margin-right: 5px;
+    }
+
+    .evt-donationbox .donation-clublogo {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 10px;
+        right: 22px;
+    }
+
+    .evt-donationbox .donation-clublogo img {
+        max-width: 100px;
+    }
+
+    .act-portaitbox {
+        max-width: none;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .act-portrait {
+        height: 440px;
+    }
+
+    .eventbuttons {
+        .btn {
+            width: 100%;
+        }
+    }
+}

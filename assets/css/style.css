@@ -1,12 +1,32 @@
 img {
   max-width: 100%; }
 
+<<<<<<< Updated upstream
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold; }
 
 p, a, ul, li, span {
   font-family: 'Open Sans', sans-serif; }
+=======
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+p,
+a,
+ul,
+li,
+span {
+  font-family: "Open Sans", sans-serif;
+}
+>>>>>>> Stashed changes
 
 h1 {
   font-size: 32px; }
@@ -17,6 +37,7 @@ h2 {
 h3 {
   font-size: 18px; }
 
+<<<<<<< Updated upstream
 h4 {
   font-size: 22px; }
 
@@ -25,6 +46,19 @@ h5 {
 
 h6 {
   font-size: 18px; }
+=======
+h4, .text-xxl {
+  font-size: 22px;
+}
+
+h5, .text-xl {
+  font-size: 20px;
+}
+
+h6, .text-lg {
+  font-size: 18px;
+}
+>>>>>>> Stashed changes
 
 p {
   font-size: 16px; }
@@ -103,6 +137,40 @@ p {
 .btn-sm {
   height: 50px; }
 
+@media screen and (max-width: 648px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .btn-sm {
+    height: 40px;
+  }
+}
 html, body {
   max-width: 100%;
   margin: 0;
@@ -124,6 +192,11 @@ header {
 #eventCover {
   position: relative; }
 
+#eventconverr {
+  width: 100%;
+  height: 350px;
+}
+
 #evntclublogo {
   width: 180px;
   height: 180px;
@@ -133,6 +206,7 @@ header {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+<<<<<<< Updated upstream
   position: absolute;
   top: 60px;
   left: 30px; }
@@ -155,6 +229,27 @@ header {
     #btnmsgplay a i {
       font-size: 38px;
       vertical-align: middle; }
+=======
+}
+#evntclublogo img {
+  max-width: 140px;
+}
+
+#btnmsgplay a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  background: #014186;
+  padding: 10px 30px 10px 10px;
+  border-radius: 30px 0 0 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#btnmsgplay a i {
+  font-size: 38px;
+  vertical-align: middle;
+}
+>>>>>>> Stashed changes
 
 .evt-donationbox {
   position: relative; }
@@ -173,6 +268,7 @@ header {
       max-width: 150px; }
 
 .donation_radio {
+<<<<<<< Updated upstream
   display: none; }
   .donation_radio + label {
     width: 90px;
@@ -186,6 +282,24 @@ header {
   .donation_radio:checked + label {
     background: #014186;
     color: #ffffff; }
+=======
+  display: none;
+}
+.donation_radio + label {
+  width: 19%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #111;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.donation_radio:checked + label {
+  background: #014186;
+  color: #ffffff;
+}
+>>>>>>> Stashed changes
 
 .act-portaitbox {
   min-width: 250px;
@@ -269,5 +383,9 @@ header {
 
 .lin_unsty {
   text-decoration: none; }
+
+.act_wrap, header {
+  height: auto;
+}
 
 /*# sourceMappingURL=style.css.map */

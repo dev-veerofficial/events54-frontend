@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
 "version": 3,
 "mappings": "",
@@ -5,3 +6,6 @@
 "names": [],
 "file": "media.css"
 }
+=======
+{"version":3,"sourceRoot":"","sources":["../sass/media.scss"],"names":[],"mappings":"AAAA;EACI;IACI;IACA;;;EAGJ;IACI;IACA;IACA;;;EAGJ;IACI;;;EAEJ;IACI;;;EAGJ;IACI;IACA;IACA;IACA;IACA;;EACA;IACI;;;AAKZ;EACI;IACI;IACA;;;EAEJ;IACI;;;EAEJ;IACI;;;EAEJ;IACI;;;AAGR;EAEI;IACI;IACA;IACA;IACA;;;EAGJ;IACI;IACA;IACA;;;EAGJ;IACI;;;EAGJ;IACI;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;;EAGJ;IACI;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;;EAGJ;IACI;;;EAGJ;IACI;;EAEA;IACI;;;EAIR;IACI;;;EAIA;IACI","file":"media.css"}
+>>>>>>> Stashed changes
