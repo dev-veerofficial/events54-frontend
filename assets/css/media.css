@@ -35,7 +35,7 @@
     max-width: 230px;
   }
 
-  .btn {
+  .btn:not(.btn-download) {
     width: 190px;
   }
 
