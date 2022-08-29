@@ -13,38 +13,56 @@
     #evntclublogo img {
         max-width: 85px;
     }
+
     div#btnmsgplay {
         margin-top: -80px;
     }
 
-    #btnmsgplay a{
+    #btnmsgplay a {
         border-radius: 40px;
         font-weight: normal;
         font-size: 16px;
         display: flex;
         align-items: center;
-        span{
+
+        span {
             display: inline-block;
         }
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:768px) and (max-width:1024px) {
     .act-portaitbox {
         min-width: 225px;
         max-width: 230px;
     }
-    .btn{
+
+    .btn {
         width: 190px;
     }
+
     .act-portrait-wd {
         height: 190px;
     }
-    .donation_radio + label{
+
+    .donation_radio+label {
         width: 19%;
     }
 }
+
 @media screen and (max-width:480px) {
+
+    .act_wrap,
+    header:not(.main) {
+        height: auto;
+    }
+
+    header.main{
+        height: 60px !important;
+        img{
+            max-width: 150px;
+        }
+    }
 
     .donation_radio+label {
         width: 50px;
