@@ -1,18 +1,158 @@
-/* Error: expected selector.
- *    ,
- * 67 | <<<<<<< Updated upstream
- *    | ^
- *    '
- *   sass\_variables.scss 67:1  @import
- *   sass\style.scss 1:9        root stylesheet */
+img {
+  max-width: 100%; }
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected selector.\a    \2577 \a 67 \2502  <<<<<<< Updated upstream\d\a    \2502  ^\a    \2575 \a   sass\\_variables.scss 67:1  @import\a   sass\\style.scss 1:9        root stylesheet";
+  color: #ffffff;
+  text-decoration: none;
+  background: #014186;
+  padding: 10px 30px 10px 10px;
+  border-radius: 30px 0 0 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#btnmsgplay a i {
+  font-size: 38px;
+  vertical-align: middle;
+}
+>>>>>>> Stashed changes
+
+.evt-donationbox {
+  position: relative; }
+  .evt-donationbox .donation-clublogo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 60px;
+    right: 40px; }
+    .evt-donationbox .donation-clublogo img {
+      max-width: 150px; }
+
+.donation_radio {
+<<<<<<< Updated upstream
+  display: none; }
+  .donation_radio + label {
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #111;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer; }
+  .donation_radio:checked + label {
+    background: #014186;
+    color: #ffffff; }
+=======
+  display: none;
+}
+.donation_radio + label {
+  width: 19%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #111;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.donation_radio:checked + label {
+  background: #014186;
+  color: #ffffff;
+}
+>>>>>>> Stashed changes
+
+.act-portaitbox {
+  min-width: 250px;
+  max-width: 260px;
+  margin-top: 15px; }
+
+.act-portrait {
+  height: 340px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  border-radius: 5px; }
+
+.act-overlay {
+  background: #020024;
+  background: linear-gradient(0deg, #020024 0%, rgba(0, 0, 0, 0.7) 41%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.act-overlay-wide {
+  background: #020024;
+  background: linear-gradient(0deg, #020024 0%, rgba(0, 0, 0, 0.5) 41%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.act-ribbon {
+  background-image: url("../images/act-ribbon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 30px !important;
+  width: 45px;
+  color: #fff;
+  margin-right: 10px; }
+
+.input-group.don {
+  height: 60px; }
+  .input-group.don .input-group-text {
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center; }
+
+.evt-donationbox {
+  max-height: 350px;
+  overflow: hidden; }
+
+.act-portrait-wd > div {
+  height: 100%; }
+
+.act-portrait-wd > div > img {
+  width: 100%; }
+
+.act-portrait-wd {
+  position: relative;
+  height: 250px;
+  overflow: hidden; }
+
+.countdown {
+  border: 1px dashed #5A7090; }
+
+.col.coln {
+  max-width: 20px; }
+
+.logo_sm {
+  width: 130px; }
+
+.act_wrap {
+  height: 100px; }
+
+.lin_unsty {
+  text-decoration: none; }
+
+.act_wrap, header {
+  height: auto;
 }

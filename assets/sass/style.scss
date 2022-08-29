@@ -1,38 +1,40 @@
 @import '_variables';
 @import 'style2';
 
-html,body{
+html,
+body {
     max-width: 100%;
     margin: 0;
     padding: 0;
     background-color: $color-lite-grey;
 }
 
-#wrapper{
- width: 100%;
- max-width: 1366px;
- margin: 0 auto;
+#wrapper {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
 }
 
-header{
+header {
     height: 60px;
     width: 100%;
     background-color: $color-primary;
-    .container{
+
+    .container {
         height: 100%;
     }
 }
 
-#eventCover{
+#eventCover {
     position: relative;
 }
 
-#eventconverr{
+#eventconverr {
     width: 100%;
     height: 350px;
 }
 
-#evntclublogo{
+#evntclublogo {
     width: 180px;
     height: 180px;
     background-color: $color-lite;
@@ -41,20 +43,22 @@ header{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+
     // position
     // position: absolute;
     // top: 60px;
     // left: 30px;
-    img{
+    img {
         max-width: 140px;
     }
 }
 
-#btnmsgplay{
+#btnmsgplay {
+
     // position: absolute;
     // right: 0;
     // bottom: 10px;
-    a{
+    a {
         display: block;
         color: $color-lite;
         text-decoration: none;
@@ -63,17 +67,18 @@ header{
         border-radius: 30px 0 0 30px;
         font-weight: bold;
         font-size: 20px;
-        i{
+
+        i {
             font-size: 38px;
-        vertical-align: middle;
+            vertical-align: middle;
         }
     }
 }
 
-.evt-donationbox{
+.evt-donationbox {
     position: relative;
 
-    .donation-clublogo{
+    .donation-clublogo {
         width: 180px;
         height: 180px;
         border-radius: 50%;
@@ -85,16 +90,18 @@ header{
         position: absolute;
         top: 60px;
         right: 40px;
-        img{
+
+        img {
             max-width: 150px;
         }
     }
 }
 
 // Donation Radios
-.donation_radio{
+.donation_radio {
     display: none;
-    +label{
+
+    +label {
         width: 19%;
         height: 40px;
         line-height: 40px;
@@ -103,23 +110,21 @@ header{
         border-radius: 5px;
         font-size: 18px;
         cursor: pointer;
-        
     }
 
-    &:checked+label{
+    &:checked+label {
         background: $color-primary;
         color: $color-lite;
     }
 }
 
-.act-portaitbox{
-
+.act-portaitbox {
     min-width: 250px;
     max-width: 260px;
     margin-top: 15px;
 }
 
-.act-portrait{
+.act-portrait {
     height: 340px;
     position: relative;
     border-radius: 5px;
@@ -127,20 +132,9 @@ header{
     border-radius: 5px;
 }
 
-.act-overlay{
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.7) 41%, rgba(255,255,255,0) 100%);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-.act-overlay-wide{
-    background: rgb(2,0,36);
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.5) 41%, rgba(255,255,255,0) 100%);
+.act-overlay {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.7) 41%, rgba(255, 255, 255, 0) 100%);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -150,7 +144,19 @@ header{
     bottom: 0;
 }
 
-.act-ribbon{
+.act-overlay-wide {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.5) 41%, rgba(255, 255, 255, 0) 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.act-ribbon {
     background-image: url('../images/act-ribbon.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -162,9 +168,10 @@ header{
     margin-right: 10px;
 }
 
-.input-group.don{
+.input-group.don {
     height: 60px;
-    .input-group-text{
+
+    .input-group-text { 
         width: 50px;
         text-align: center;
         font-size: 18px;
@@ -172,7 +179,7 @@ header{
     }
 }
 
-.evt-donationbox{
+.evt-donationbox {
     max-height: 350px;
     overflow: hidden;
 }
@@ -180,11 +187,12 @@ header{
 .act-portrait-wd>div {
     height: 100%;
 }
+
 .act-portrait-wd>div>img {
     width: 100%;
 }
 
-.act-portrait-wd{
+.act-portrait-wd {
     position: relative;
     height: 250px;
     overflow: hidden;
@@ -196,28 +204,29 @@ header{
 //     img{height: 100%; width: 80%;}
 // }
 
-.countdown{
+.countdown {
     border: 1px dashed $color-grey;
 }
 
-.col.coln{
+.col.coln {
     max-width: 20px;
 }
 
 // AlgoRhythm
 //Act Deatails Page
-.logo_sm{
+.logo_sm {
     width: 130px;
-} 
+}
 
-.act_wrap{
+.act_wrap {
     height: 100px;
 }
 
-.lin_unsty{
+.lin_unsty {
     text-decoration: none;
 }
 
-.act_wrap, header{
+.act_wrap,
+header {
     height: auto;
 }
