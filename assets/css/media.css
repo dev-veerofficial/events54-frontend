@@ -61,8 +61,7 @@ header:not(.main) {
   }
 
   .donation_radio + label {
-    width: 50px;
-    min-width: 19%;
+    width: 18%;
     height: 40px;
     font-size: 16px;
   }
