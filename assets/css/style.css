@@ -457,4 +457,9 @@ header .container {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
+.act-cover img {
+  width: 100%;
+  max-height: 420px;
+}
+
 /*# sourceMappingURL=style.css.map */
