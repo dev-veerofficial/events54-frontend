@@ -40,7 +40,7 @@
         max-width: 230px;
     }
 
-    .btn:not(.btn-download) {
+    .btn:not(.btn-download, .btn-cart) {
         width: 190px;
     }
 
@@ -49,7 +49,7 @@
     }
 
     .donation_radio+label {
-        width: 19%;
+        width: 18.5%;
     }
 }
 
