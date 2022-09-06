@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Open+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body style="background-color:#f5f5f5;font-family: 'Open Sans', sans-serif;">
+    <!-- [veer] -->
+    <div id="wrapper"
+        style="width:100%; max-width: 1024px; margin:0 auto;background-color: #fff; padding-bottom: 50px;">
+        <div id="bluebox" style="background: #014186; text-align: center; padding: 20px 0; color: #fff;">
+            <div id="brandlogo">
+                <img src="https://i.postimg.cc/hv8vcKsq/brandlogo.png" alt="#">
+            </div>
+        </div>
+        <!-- Club Details -->
+        <div id="clubdetails"
+            style="display: flex; align-items: center; justify-content: center; background-color: #F1F7FF;margin: 10px 30px;">
+            <div id="clublogo" style="max-width: 15%; border: 0px solid; overflow:hidden;">
+                <img src="https://i.postimg.cc/C55rVKSR/clublogo.png" alt="#" style="max-width:100%;">
+            </div>
+            <div id="clubbrief" style="margin-left: 0px;">
+                <h2 style="margin: 0;">Geraldines Mighty Marquee Weekend</h2>
+                <p style="margin: 5px 0;">Geraldines Community Lip Sync</p>
+                <p style="margin: 0;">McGeough Park, Haggagardstown, Co. Louth</p>
+            </div>
+        </div>
+        <!-- Ticket Details -->
+        <div id="ticketdetails" style="padding: 0 15px;margin: 0 30px;">
+            <table style="margin: 10px 0; width: 100%; padding: 0 10px;">
+                <thead>
+                    <tr>
+                        <th style="text-align: left;border-bottom: 1px solid black;padding: 15px 0;">Act and Date</th>
+                        <th style="text-align: left;border-bottom: 1px solid black;padding: 15px 0;">Quantity</th>
+                        <th style="text-align: right;border-bottom: 1px solid black;padding: 15px 0;">Ticket Number</th>
+                    </tr>
+                </thead>
+                <tr style="margin: 20px;">
+                    <td style="border-bottom: 1px solid #F0F0F0;padding: 10px 0;">
+                        <h3 style="margin: 0;"><Strong>Community Lip Sync Challenge </Strong></h3>
+                        <p style="margin: 10px 0;">Friday, 7th October 8:30pm</p>
+                    </td>
+                    <td style="border-bottom: 1px solid #F0F0F0;padding: 10px 0;">
+                        <h3 style="margin: 0;"><Strong>2 Tickets</Strong></h3>
+                    </td>
+                    <td style="border-bottom: 1px solid #F0F0F0;padding: 10px 0;">
+                        <p style="font-size:18px; text-align:right;"><strong>JFK1255</strong></p>
+                    </td>
+                </tr>
+                <!--  -->
+                <tr>
+                    <td style="border-bottom: 1px solid #F0F0F0;padding: 10px 0;">
+                        <h3 style="margin: 0;"><Strong>Brutus Gold & The Love Train </Strong></h3>
+                        <p style="margin: 10px 0;">Saturday, 8th October 8:30pm</p>
+                    </td>
+                    <td style="border-bottom: 1px solid #F0F0F0;padding: 10px 0;">
+                        <h3 style="margin: 0;"><Strong>2 Tickets</Strong></h3>
+                    </td>
+                    <td style="border-bottom: 1px solid #F0F0F0;padding: 10px 0;">
+                        <p style="font-size: 18px; text-align: right;"><strong>ABC1234</strong></p>
+                    </td>
+                </tr>
+                <!--  -->
+            </table>
+        </div>
+        <!-- Order Summary -->
+        <div id="ordersummary" style="padding: 20px 15px; margin: 0 30px;">
+            <h3>Billing Summary</h3>
+            <div>
+                <table
+                    style="width: 50%; font-size: 16px; background-color: #F1F7FF; float: left; padding: 20px;">
+                    <tr>
+                        <td style="padding:5px 0; font-weight: bold;">Full Name:</td>
+                        <td>Peter Parker</td>
+                    </tr>
+                    <tr>X
+                        <td style="padding:5px 0; font-weight: bold;">Address line 1:</td>
+                        <td>test address in line 1</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:5px 0; font-weight: bold;">Address line 2:</td>
+                        <td>test address in line 2</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:5px 0; font-weight: bold;">City:</td>
+                        <td>{{city_name}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:5px 0; font-weight: bold;">County:</td>
+                        <td>{{county_name}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:5px 0; font-weight: bold;">Country:</td>
+                        <td>{{country_name}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:5px 0; font-weight: bold;">Postal Code:</td>
+                        <td>{{Postal_code}}</td>
+                    </tr>
+                </table>
+                <table
+                    style="width: 35%; font-size: 16px; padding: 15px 15px 0 15px; background-color: #F1F7FF; float: right;">
+                    <tr>
+                        <td style="padding:5px 0">Fri, 7th Oct <span style="font-weight: bold;"> x 2 tickets</span></td>
+                        <td>€60.00</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:5px 0">Sat, 8th Oct <span style="font-weight: bold;"> x 2 tickets</span></td>
+                        <td>€100.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="hr"
+                                style="margin-top: 10px; border-bottom: 1px solid rgba(130,167,207,0.5); min-height: 2px;">
+                            </div>
+                        </td>
+                    <tr>
+                        <td>
+                            <h3 style="margin: 15px 0 0;">Total Paid</h3>
+                        </td>
+                        <td>
+                            <h3 style="margin: 15px 0 0;">€160.00</h3>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--  -->
+        <div style="clear:both;">
+        </div>
+</body>
+
+</html>
