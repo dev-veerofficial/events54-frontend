@@ -220,7 +220,7 @@ label {
   height: 50px;
 }
 
-.h-100 {
+.h-100x {
   height: 100vh !important;
 }
 
@@ -472,6 +472,13 @@ header .container {
 
 .embed-responsive-item {
   min-height: 350px !important;
+}
+
+.parsley-errors-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14x;
 }
 
 /*# sourceMappingURL=style.css.map */

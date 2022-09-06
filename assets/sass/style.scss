@@ -244,3 +244,10 @@ header {
 .embed-responsive-item{
     min-height: 350px !important;
 }
+
+.parsley-errors-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14x;
+}
