@@ -15,6 +15,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <title>Events54</title>
 </head>
 
@@ -25,10 +26,62 @@
                 <div id="comingsoon" class="text-center text-light">
                     <div id="brandlogo"><img src="assets/images/brandlogo.svg" alt=""></div>
                     <div id="tagline" class="text-xl mt-1 mb-4">Streamlining your Events</div>
-                    <div id="holding-mail" class="position-absolute bottom-0 start-50 translate-middle-x pb-4"><a href="mailto:info@events54.com" class="text-light"><i class="fa fa-envelope d-inline-block me-2"></i>info@events54.com</a></div>
+                    <div id="holding-mail" class="position-absolute bottom-0 start-50 translate-middle-x pb-4">
+                        <a href="mailto:info@events54.com" class="text-light"><i class="fa fa-envelope d-inline-block me-2"></i>info@events54.com</a> | 
+                        <a href="javascript:void(0);" class="text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">Get in Touch</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+<!-- Get in Touch Modal -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Get in Touch</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-12 mb-2">
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" class="form-control border border-danger" />
+                        <ul class="list-unstyled m-0 p-0 text-sm text-danger">
+                            <li>Please enter your full name</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-12 mb-2">
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" class="form-control" />
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-12 mb-2">
+                    <div class="form-group">
+                        <input type="text" placeholder="Contact Number" class="form-control" />
+                    </div>
+                </div>
+                <!--  -->
+                <!--  -->
+                <div class="col-12 mb-2">
+                    <div class="form-group">
+                        <textarea name="" id="" cols="30" rows="3" placeholder="Message" class="form-control"></textarea>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+          <button type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--  -->
 </body>
 </html>
