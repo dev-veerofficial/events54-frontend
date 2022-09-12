@@ -134,7 +134,7 @@ header {
 
 .act-overlay {
     background: rgb(2, 0, 36);
-    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.7) 41%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 0.2) 0%, rgba(0, 0, 0, 0.2) 41%, rgba(255, 255, 255, 0) 100%);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -146,7 +146,7 @@ header {
 
 .act-overlay-wide {
     background: rgb(2, 0, 36);
-    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.5) 41%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -154,6 +154,9 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
+    h2{
+        text-shadow: 10px 10px rgba(0,0,0,1);
+    }
 }
 
 .act-ribbon {
@@ -251,3 +254,9 @@ header {
     list-style: none;
     font-size: 14x;
 }
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown-menu{transform: translate(1446px, 64px) !important} 

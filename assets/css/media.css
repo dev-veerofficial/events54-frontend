@@ -77,7 +77,7 @@ header:not(.main) {
   }
 
   .act-overlay-wide {
-    background: linear-gradient(0deg, #020024 0%, rgba(0, 0, 0, 0.5) 71%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, #020024 0%, rgba(0, 0, 0, 0.3) 35%, rgba(255, 255, 255, 0) 100%);
   }
 
   .act-ribbon {
@@ -122,6 +122,11 @@ header:not(.main) {
 
   .eventbuttons .btn {
     width: 100%;
+  }
+
+  .btn.btn-sm {
+    max-width: 160px;
+    height: 40px;
   }
 }
 
