@@ -522,16 +522,16 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="row my-2 align-items-center justify-content-center">
-                                        <div class="col-6 col-sm-4 col-md-2 mb-3 mb-md-0"><img
+                                        <div class="col-6 col-sm-4 col-md-3 mb-3 mb-md-0"><img
                                                 src="assets/images/sponsors/Sponsor Logos/Connect CU/CCU-logo-L.png"
                                                 alt=""></div>
-                                        <div class="col-6 col-sm-4 col-md-2 mb-3 mb-md-0"><img
+                                        <div class="col-6 col-sm-4 col-md-3 mb-3 mb-md-0"><img
                                                 src="assets/images/sponsors/Sponsor Logos/Haggardstown GC/Haggardstown-GC-Logo-Landscape.png"
                                                 alt=""></div>
-                                        <div class="col-6 col-sm-4 col-md-2 mb-3 mb-md-0"><img
+                                        <div class="col-6 col-sm-4 col-md-3 mb-3 mb-md-0"><img
                                                 src="assets/images/sponsors/Sponsor Logos/Sports Direct/Sports_Direct_Logo_Colour_RGB.png"
                                                 alt=""></div>
-                                        <div class="col-6 col-sm-4 col-md-2 mb-3 mb-md-0"><img
+                                        <div class="col-6 col-sm-4 col-md-3 mb-3 mb-md-0"><img
                                                 src="assets/images/sponsors/Sponsor Logos/Supervalu/Fairways A4 Logo_red on white.jpg"
                                                 alt=""></div>
                                     </div>
@@ -570,15 +570,15 @@
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content bg-transparent">
-                <!-- <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Message from Chairman</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div> -->
+            <div class="modal-content bg-transparent border-0">
                 <div class="modal-body bg-transparent" id="yt-player">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="100%" height="350" class="embed-responsive-item"
-                            src="https://www.youtube.com/embed/piaeLbvCDcQ" id="playerid" allowfullscreen></iframe>
+                        <!-- <iframe width="100%" height="350" class="embed-responsive-item"
+                            src="https://www.youtube.com/embed/piaeLbvCDcQ" id="playerid" allowfullscreen></iframe> -->
+                        <video width="100%" height="" controls id="videomsg">
+                            <source src="assets/videos/chairman-video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
@@ -624,28 +624,22 @@
             }
         }, 1000);
     </script>
+    <!-- Chairman message video -->
     <script type="text/javascript">
+        // For iFrame (Youtube/Vimeo video)
         $('#exampleModal').on('hidden.bs.modal', function () {
             var video = $("#playerid").attr("src");
             $("#playerid").attr("src", "");
             $("#playerid").attr("src", video);
         });
 
-        // 
-        // $('#exampleModal').on('hidden.bs.modal', function () {
-        //     $("#modal-video iframe").attr("src", $("#modal-video iframe").attr("src"));
-        // });
-
-        // $(document).on('click', '#showvideo', function () {
-        //     alert(0)
-        //     var body = $('body');
-        //     var videosrc = $('#playerid').attr('src');
-        //     if (body.hasClass('model-open')) {
-        //         alert(1);
-        //     }
-        // })
-
-
+        // For HTML video
+        $('#exampleModal').on('shown.bs.modal', function () {
+            $('#videomsg')[0].play();
+        })
+        $('#exampleModal').on('hidden.bs.modal', function () {
+            $('#videomsg')[0].pause();
+        })
     </script>
 </body>
 
