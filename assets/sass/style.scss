@@ -259,4 +259,7 @@ header {
     display: none;
 }
 
-.dropdown-menu{transform: translate(1446px, 64px) !important} 
+
+@media screen and (min-width:1600px){
+    .dropdown-menu{transform: translate(1446px, 64px)}
+}
