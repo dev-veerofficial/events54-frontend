@@ -259,6 +259,18 @@ header {
     display: none;
 }
 
+.elem-tkt-qty{
+    button, input{
+        width: 50px !important;
+        height: 50px !important;
+        text-align: center;
+    }
+
+    button:focus{
+        outline: 0;
+        box-shadow: none;
+    }
+}
 
 @media screen and (min-width:1600px){
     .dropdown-menu{transform: translate(1446px, 64px)}
