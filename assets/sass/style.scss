@@ -272,6 +272,31 @@ header {
     }
 }
 
+.intiials{
+    width: 50px;
+    height: 50px;
+    border: 2px solid $color-primary;
+    display: inline-flex;align-items: center;justify-content: center;
+    border-radius: 50%;
+    background-color: $color-primary-lite;
+    color: $color-primary;
+    font-weight: bold;
+}
+
+.act-supporters{
+    max-height: 280px;
+    overflow: hidden;
+    overflow-y: auto;
+    li{
+        border-bottom: 1px solid $color-lite-grey;
+        padding: 8px;
+    }
+}
+
+.d-grid{
+    display: grid;
+}
+
 @media screen and (min-width:1600px){
     .dropdown-menu{transform: translate(1446px, 64px)}
 }
