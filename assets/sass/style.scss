@@ -292,6 +292,41 @@ header {
         padding: 8px;
     }
 }
+.leaderboard{
+    max-height: 360px;
+    overflow: hidden;
+    overflow-y: auto;
+    li{
+        border-bottom: 0px solid $color-lite-grey;
+        padding: 8px;
+        margin-bottom: 4px;
+
+        .intiials{
+            width: 36px;
+            height: 36px;
+            border: 0px solid $color-primary;
+            display: inline-flex;align-items: center;justify-content: center;
+            border-radius: 50%;
+            background-color: $color-grey;
+            color: $color-lite;
+            font-weight: bold;
+        }
+
+        &:first-child{
+            border: 2px solid $color-primary;
+            border-radius: 10px;
+            background-color: $color-primary-lite;
+            .intiials{
+                width: 42px;
+                height: 42px;
+                background-color: $color-primary;
+                color: $color-lite;
+            }
+        }
+        
+    }
+    
+}
 
 .d-grid{
     display: grid;

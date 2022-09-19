@@ -16,7 +16,8 @@ p,
 a,
 ul,
 li,
-span {
+span,
+.ff-normal {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -519,6 +520,40 @@ header .container {
 .act-supporters li {
   border-bottom: 1px solid #EEEEEE;
   padding: 8px;
+}
+
+.leaderboard {
+  max-height: 360px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.leaderboard li {
+  border-bottom: 0px solid #EEEEEE;
+  padding: 8px;
+  margin-bottom: 4px;
+}
+.leaderboard li .intiials {
+  width: 36px;
+  height: 36px;
+  border: 0px solid #014186;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #5A7090;
+  color: #ffffff;
+  font-weight: bold;
+}
+.leaderboard li:first-child {
+  border: 2px solid #014186;
+  border-radius: 10px;
+  background-color: #f2f9ff;
+}
+.leaderboard li:first-child .intiials {
+  width: 42px;
+  height: 42px;
+  background-color: #014186;
+  color: #ffffff;
 }
 
 .d-grid {
