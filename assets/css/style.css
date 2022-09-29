@@ -560,6 +560,18 @@ header .container {
   display: grid;
 }
 
+.cbox-lg {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.input-lg {
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 1600px) {
   .dropdown-menu {
     transform: translate(1446px, 64px);
