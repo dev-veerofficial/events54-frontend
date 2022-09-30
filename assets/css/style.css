@@ -572,6 +572,48 @@ header .container {
   font-weight: bold;
 }
 
+.leaderbard-heading {
+  font-size: 42px;
+}
+
+.table-leaderboardxl tr h1 {
+  padding: 10px 0 !important;
+  margin-bottom: 0;
+}
+.table-leaderboardxl tr:nth-child(n+6) h1 {
+  font-weight: 400;
+}
+.table-leaderboardxl tr:nth-child(n+6) td:first-child h1 {
+  font-weight: bold;
+  color: #014186;
+}
+.table-leaderboardxl tr:nth-child(even) {
+  background-color: #f2f9ff;
+}
+.table-leaderboardxl tr:nth-child(odd) {
+  background-color: #fff;
+}
+.table-leaderboardxl tr:nth-child(1) {
+  background-color: #014186;
+  color: #fff !important;
+}
+.table-leaderboardxl tr:nth-child(2) {
+  background-color: rgba(1, 65, 134, 0.9);
+  color: #fff !important;
+}
+.table-leaderboardxl tr:nth-child(3) {
+  background-color: rgba(1, 65, 134, 0.8);
+  color: #fff !important;
+}
+.table-leaderboardxl tr:nth-child(4) {
+  background-color: rgba(1, 65, 134, 0.7);
+  color: #fff !important;
+}
+.table-leaderboardxl tr:nth-child(5) {
+  background-color: rgba(1, 65, 134, 0.6);
+  color: #fff !important;
+}
+
 @media screen and (min-width: 1600px) {
   .dropdown-menu {
     transform: translate(1446px, 64px);
