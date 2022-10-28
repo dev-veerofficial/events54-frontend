@@ -135,3 +135,20 @@
         height: 40px;
     }
 }
+
+@media screen and (max-width:640px){
+    .act_title.descpage{
+        h2{
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+    }
+    .elem-tkt-qty button, .elem-tkt-qty input {
+        width: 30px !important;
+        height: 30px !important;
+        text-align: center;
+    }
+    .elem-tkt-qty button{
+        padding: 0;
+    }
+}

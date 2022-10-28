@@ -1,84 +1,65 @@
 @media screen and (max-width: 1024px) {
   #eventconverr {
     height: 180px;
-    padding-top: 100px;
-  }
+    padding-top: 100px; }
 
   #evntclublogo {
     width: 100px;
     height: 100px;
-    margin-top: 25px;
-  }
+    margin-top: 25px; }
 
   #evntclublogo img {
-    max-width: 85px;
-  }
+    max-width: 85px; }
 
   div#btnmsgplay {
-    margin-top: -80px;
-  }
+    margin-top: -80px; }
 
   #btnmsgplay a {
     border-radius: 40px;
     font-weight: normal;
     font-size: 16px;
     display: flex;
-    align-items: center;
-  }
-  #btnmsgplay a span {
-    display: inline-block;
-  }
+    align-items: center; }
+    #btnmsgplay a span {
+      display: inline-block; }
 
   .embed-responsive-item {
-    height: auto;
-  }
-}
+    height: auto; } }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .act-portaitbox {
     min-width: 225px;
-    max-width: 230px;
-  }
+    max-width: 230px; }
 
   .btn:not(.btn-download, .btn-cart) {
-    width: 190px;
-  }
+    width: 190px; }
 
   .act-portrait-wd {
-    height: 190px;
-  }
+    height: 190px; }
 
   .donation_radio + label {
-    width: 18.5%;
-  }
-}
+    width: 18.5%; } }
 @media screen and (max-width: 480px) {
   .act_wrap,
-header:not(.main) {
-    height: auto;
-  }
+  header:not(.main) {
+    height: auto; }
 
   header.main {
-    height: 60px !important;
-  }
-  header.main img {
-    max-width: 150px;
-  }
+    height: 60px !important; }
+    header.main img {
+      max-width: 150px; }
 
   .donation_radio + label {
     width: 18%;
     height: 40px;
-    font-size: 16px;
-  }
+    font-size: 16px; }
 
   .act-portrait-wd {
     position: relative;
     height: 190px;
-    overflow: hidden;
-  }
+    overflow: hidden; }
 
   .act-overlay-wide {
-    background: linear-gradient(0deg, #020024 0%, rgba(0, 0, 0, 0.3) 35%, rgba(255, 255, 255, 0) 100%);
-  }
+    background: linear-gradient(0deg, #020024 0%, rgba(0, 0, 0, 0.3) 35%, rgba(255, 255, 255, 0) 100%); }
 
   .act-ribbon {
     background-image: url(../images/act-ribbon.png);
@@ -89,8 +70,7 @@ header:not(.main) {
     padding-bottom: 20px !important;
     width: 36px;
     color: #FFF;
-    margin-right: 5px;
-  }
+    margin-right: 5px; }
 
   .evt-donationbox .donation-clublogo {
     width: 120px;
@@ -102,32 +82,36 @@ header:not(.main) {
     justify-content: center;
     position: absolute;
     top: 10px;
-    right: 22px;
-  }
+    right: 22px; }
 
   .evt-donationbox .donation-clublogo img {
-    max-width: 100px;
-  }
+    max-width: 100px; }
 
   .act-portaitbox {
-    max-width: none;
-  }
-  .act-portaitbox img {
-    width: 100%;
-  }
+    max-width: none; }
+    .act-portaitbox img {
+      width: 100%; }
 
   .act-portrait {
-    height: 440px;
-  }
+    height: 440px; }
 
   .eventbuttons .btn {
-    width: 100%;
-  }
+    width: 100%; }
 
   .btn.btn-sm {
     max-width: 160px;
-    height: 40px;
-  }
-}
+    height: 40px; } }
+@media screen and (max-width: 640px) {
+  .act_title.descpage h2 {
+    font-size: 32px;
+    margin-bottom: 10px; }
+
+  .elem-tkt-qty button, .elem-tkt-qty input {
+    width: 30px !important;
+    height: 30px !important;
+    text-align: center; }
+
+  .elem-tkt-qty button {
+    padding: 0; } }
 
 /*# sourceMappingURL=media.css.map */

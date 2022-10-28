@@ -50,15 +50,18 @@ h3 {
     font-size: 18px;
 }
 
-h4, .text-xxl {
+h4,
+.text-xxl {
     font-size: 22px;
 }
 
-h5, .text-xl {
+h5,
+.text-xl {
     font-size: 20px;
 }
 
-h6, .text-lg {
+h6,
+.text-lg {
     font-size: 16px;
 }
 
@@ -66,31 +69,83 @@ p {
     font-size: 14px;
 }
 
-label{
+label {
     cursor: pointer;
 }
 
 // Font Colors
-.text-primary{color: $color-primary;}
-.text-primary-dark{color: $color-primary-dark;}
-.text-secondary{color: $color-secondary;}
-.text-dark{color: $color-dark;}
-.text-dark-lite{color: $color-dark-lite;}
-.text-light{color: $color-lite;}
-.text-grey{color: $color-grey;}
-.text-grey-lite{color: $color-lite-grey;}
-.text-green{color :$color-green}
+.text-primary {
+    color: $color-primary;
+}
+
+.text-primary-dark {
+    color: $color-primary-dark;
+}
+
+.text-secondary {
+    color: $color-secondary;
+}
+
+.text-dark {
+    color: $color-dark;
+}
+
+.text-dark-lite {
+    color: $color-dark-lite;
+}
+
+.text-light {
+    color: $color-lite;
+}
+
+.text-grey {
+    color: $color-grey;
+}
+
+.text-grey-lite {
+    color: $color-lite-grey;
+}
+
+.text-green {
+    color: $color-green
+}
 
 // Backgrounds
-.bg-primary{background-color: $color-primary !important;}
-.bg-primary-dark{background-color: $color-primary-dark;}
-.bg-primary-lite{background-color: $color-primary-lite;}
-.bg-secondary{background-color: $color-secondary;}
-.bg-dark{background-color: $color-dark;}
-.bg-dark-lite{background-color: $color-dark-lite;}
-.bg-lite{background-color: $color-lite;}
-.bg-grey{background-color: $color-grey;}
-.bg-grey-lite{background-color: $color-lite-grey;}
+.bg-primary {
+    background-color: $color-primary !important;
+}
+
+.bg-primary-dark {
+    background-color: $color-primary-dark;
+}
+
+.bg-primary-lite {
+    background-color: $color-primary-lite;
+}
+
+.bg-secondary {
+    background-color: $color-secondary;
+}
+
+.bg-dark {
+    background-color: $color-dark;
+}
+
+.bg-dark-lite {
+    background-color: $color-dark-lite;
+}
+
+.bg-lite {
+    background-color: $color-lite;
+}
+
+.bg-grey {
+    background-color: $color-grey;
+}
+
+.bg-grey-lite {
+    background-color: $color-lite-grey;
+}
 
 .text-primary {
     color: $color-primary;
@@ -164,9 +219,9 @@ label{
 .bg-grey-lite {
     background-color: $color-lite-grey;
 }
-> Stashed changes
 
-// Buttons
+>Stashed changes // Buttons
+
 .btn {
     width: 200px;
     height: 60px;
@@ -191,7 +246,7 @@ label{
     height: 50px;
 }
 
-.h-100x{
+.h-100x {
     height: 100vh !important;
 }
 
@@ -219,12 +274,24 @@ label{
     }
 
     h6 {
-        font-size: 18px;
+        font-size: 14px;
+    }
+
+    .ticket-counter {
+        
+        h6 {
+            font-size: 14px;
+        }
+
+        h1{
+            font-size: 20px;
+        }
     }
 
     p {
         font-size: 16px;
     }
+
     .btn-sm {
         height: 40px;
     }
